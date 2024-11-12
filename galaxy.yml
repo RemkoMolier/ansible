@@ -1,0 +1,14 @@
+namespace: remkomolier
+name: ansible
+version: 1.0.0
+readme: README.md
+authors:
+  - Remko Molier <remko.molier@googlemail.com>
+description: RemkoMolier's personal ansible collection
+license_file: "LICENSE"
+tags: []
+dependencies: {}
+repository: https://github.com/RemkoMolier/ansible
+documentation: http://github.com/RemkoMolier/ansible/docs
+homepage: http://github.com/RemkoMolier/ansible
+build_ignore: [".venv", "scripts"]
