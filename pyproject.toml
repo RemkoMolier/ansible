@@ -13,6 +13,8 @@ python = "^3.11.2"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.0.1"
+ansible-core = "^2.18.0"
+ansible-lint = { version = "^24.9.2", markers = "platform_system != 'Windows'" }
 
 [build-system]
 requires = ["poetry-core"]
