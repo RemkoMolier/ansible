@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ansible"
+version = "0.1.0"
+description = "RemkoMolier's personal ansible collection"
+authors = ["Remko Molier <remko.molier@googlemail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/RemkoMolier/ansible"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
