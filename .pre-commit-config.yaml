@@ -58,7 +58,7 @@ repos:
         args: []
         require_serial: false
         additional_dependencies:
-          - "prettier@3.3.3"
+          - "prettier@3.9.6"
         minimum_pre_commit_version: "0"
       - id: sign-off-commit
         stages:
