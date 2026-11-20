@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:bookworm@sha256:b3fd61ae07a1ebd211cac645c758f4018688a86e2c9b596a6c862ca89b0a668d
+FROM mcr.microsoft.com/devcontainers/base:bookworm@sha256:06701e75787b0b948709e803f95b42cabf37607b1c308c57471d6f0252149d87
 
 # Enable secure connections for Debian
 RUN    sed -i 's/http:/https:/g' /etc/apt/sources.list.d/debian.sources
